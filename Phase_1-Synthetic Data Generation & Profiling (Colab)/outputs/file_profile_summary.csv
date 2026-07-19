@@ -1,0 +1,9 @@
+file_name,rows,columns,duplicate_rows,null_column_count
+customers.csv,5000,3,0,1
+products.csv,800,4,0,0
+orders_day1.json,20000,5,0,0
+orders_day2.json,4000,6,0,1
+order_items_day1.json,55000,5,24,0
+order_items_day2.json,11000,6,0,1
+clickstream_day1.json,15000,3,0,0
+clickstream_day2.json,15000,3,0,0
