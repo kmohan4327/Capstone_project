@@ -16,6 +16,8 @@ See the full project requirements and tasks in: `Capstone_Requirements_and_Tasks
 
 - Phase 5 — Lake Formation & Analytics Permissions: Lake Formation registration, LF tags, IAM roles and column-level access controls validated via Athena. See `phase_5.md`.
 
+- Phase 6 — Glue ETL for Curated Data & Quarantine Handling: Glue job reads catalog tables, applies data quality rules, deduplicates data, enforces referential integrity, and writes curated and quarantine outputs to S3. See `phase6.md` and `phase6.py`.
+
 - Phase 8 — Databricks Medallion ETL & Validation: Bronze → Silver → Gold ETL implemented with notebooks and validation of Gold tables. See `phase8.md`, `bronze_silver_gold_pipeline.ipynb`, and `medallion_dlt.ipynb`.
 
 ## Requirements (high level)
@@ -50,6 +52,6 @@ pip install -r requirements.txt  # or install packages listed above
 ## Where to read more
 
 - Project requirements and task list: `Capstone_Requirements_and_Tasks.pdf`.
-- Phase documentation: `phase0.md`, `phase1.md`, `phase_3.md`, `phase-4.md`, `phase_5.md`, `phase8.md`.
+- Phase documentation: `phase0.md`, `phase1.md`, `phase_3.md`, `phase-4.md`, `phase_5.md`, `phase6.md`, `phase8.md`.
 - Notebooks and utilities: see the root notebooks.
 
