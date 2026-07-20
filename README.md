@@ -1,4 +1,4 @@
-# Retail Data Lakehouse Capstone
+# Capstone Project
 
 This repository contains an end-to-end retail data lakehouse capstone implemented with synthetic data, AWS services (S3, Glue, Lake Formation, Athena), and Databricks (Bronze/Silver/Gold medallion ETL).
 
